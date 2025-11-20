@@ -1,2 +1,3 @@
-with open('raw_data.bin', 'wb') as fh:
-    fh.write(b'Hello world!!!')
+byte_str = 'some text'.encode()
+print(byte_str[2])
+
