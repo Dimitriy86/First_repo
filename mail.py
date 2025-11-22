@@ -1,8 +1,6 @@
-# Введення (отримаання даних)
-name = input("Введіть ваше ім'я: ")
+n = 5000
 
-# Перетворення (обробка даних)
-salutation = f"Привіт, {name}!"
-
-# Виведення (виведення даних)
-print(salutation)
+hours = n // (60 * 60)
+minutes = (n - hours * 60 * 60) // 60
+seconds = n -hours * 60 * 60 - minutes * 60
+print(f"{n} складає {hours} годин {minutes} хвилин і {seconds} секунд.")
