@@ -1,3 +1,8 @@
-byte_str = 'some text'.encode()
-print(byte_str[2])
+# Введення (отримаання даних)
+name = input("Введіть ваше ім'я: ")
 
+# Перетворення (обробка даних)
+salutation = f"Привіт, {name}!"
+
+# Виведення (виведення даних)
+print(salutation)
