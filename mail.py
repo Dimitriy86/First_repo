@@ -1,6 +1,8 @@
-n = 5000
+x1 = 10
+y1 = 10
+x2 = 25
+y2 = 25
 
-hours = n // (60 * 60)
-minutes = (n - hours * 60 * 60) // 60
-seconds = n -hours * 60 * 60 - minutes * 60
-print(f"{n} складає {hours} годин {minutes} хвилин і {seconds} секунд.")
+d = ((x2 - x1)**2 + (y2-y1)**2)**.5
+
+print(f"Відстань між точками дорівнює {d}")
